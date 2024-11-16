@@ -1,2 +1,2 @@
-# curso.dev
-This repository is for practicing the knowledge I've gained from https://curso.dev
+# Clone do TabNews
+Este repositório está sendo usado para colocar em prática os conteúdos do [curso.dev](https://curso.dev).
