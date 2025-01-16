@@ -4,7 +4,7 @@
   "description": "Este repositório está sendo usado para colocar em prática os conteúdos do [curso.dev](https://curso.dev).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev"
   },
   "author": "",
   "license": "MIT",
