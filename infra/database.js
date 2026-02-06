@@ -17,7 +17,7 @@ async function query(queryObject) {
 
 export default {
   query,
-  getNewClient
+  getNewClient,
 };
 
 async function getNewClient() {
