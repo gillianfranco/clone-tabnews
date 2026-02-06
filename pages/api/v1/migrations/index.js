@@ -22,7 +22,7 @@ export default async function migrations(request, response) {
       direction: "up",
       verbose: true,
       migrationsTable: "pgmigrations",
-    }
+    };
 
     if (request.method === "GET") {
       const pendingMigrations = await migrationRunner(defaultMigrationOptions);
@@ -33,7 +33,7 @@ export default async function migrations(request, response) {
     if (request.method === "POST") {
       const migratedMigrations = await migrationRunner({
         ...defaultMigrationOptions,
-        dryRun: false
+        dryRun: false,
       });
 
       if (migratedMigrations.length > 0) {
