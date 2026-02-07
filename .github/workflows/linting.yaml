@@ -12,7 +12,7 @@ jobs:
       - run: npm ci
       - run: npm run lint:prettier:check
   eslint:
-    name: ESlint
+    name: ESLint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
