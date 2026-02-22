@@ -55,7 +55,11 @@
   },
   "lint-staged": {
     "*": [
-      "secretlint"
+      "secretlint",
+      "prettier --write ."
+    ],
+    "*.js": [
+      "eslint ."
     ]
   }
 }
